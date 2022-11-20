@@ -4,12 +4,11 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var database = require("./config/database");
-var usuariosRouter= require('./routes/usuarios.router');
 
 var auth = require("./auth/main_auth");
 
 var empleadosRouter = require('./routes/empleados.router');
-
+var usuariosRouter = require('./routes/usuarios.router');
 
 var app = express();
 
@@ -23,7 +22,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 database.mongoConnect();
 app.use('/usuarios', usuariosRouter);
-app.use(auth)
+app.use(auth);
 
 //ROUTER
 app.use('/empleados', empleadosRouter);
