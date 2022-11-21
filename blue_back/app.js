@@ -9,6 +9,7 @@ var auth = require("./auth/main_auth");
 
 var empleadosRouter = require('./routes/empleados.router');
 var usuariosRouter = require('./routes/usuarios.router');
+var ilustracionesRouter = require('./routes/ilustraciones.router');
 
 var app = express();
 
@@ -26,7 +27,7 @@ app.use(auth);
 
 //ROUTER
 app.use('/empleados', empleadosRouter);
-
+app.use('/ilustraciones', ilustracionesRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
