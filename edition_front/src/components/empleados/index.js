@@ -28,7 +28,7 @@ export default class Empleados extends React.Component {
   getIdEmpleado() {
     return this.state._id;
   }
-  //
+  
   render() {
     return (
       <Container id="empleados-container">

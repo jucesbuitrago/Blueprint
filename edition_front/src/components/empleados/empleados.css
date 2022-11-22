@@ -1,26 +1,31 @@
-#empleados-contrainer {
-  margin-top: 150px;
+#empleados-buscar-container, 
+#empleados-crear-container
+{
+    margin-top: 50px;
 }
 
-#empleados-buscar-container,
-#empleados-crear-container {
-  margin-top: 50px;
+.react-bs-table-sizePerPage-dropdown .dropdown-toggle{
+    float: left;
+    margin-bottom: 20px;
 }
 
-.react-bs-table-sizePerPage-dropdown .dropdown-toggle {
-  float: left;
-  margin-bottom: 10px;
+.search-Label {
+    float: right;
+    padding-bottom: 10px;
 }
 
-.search-label {
-  float: right;
-  padding-bottom: 10px;
-}
 .sr-only {
-  font-size: 0;
+    font-size: 0;
 }
 
-#empleados-crear-container .form-label {
-  float: left;
-  margin-bottom: 10px;
+#empleados-crear-container .form-label{
+    float:left;
+    margin-bottom: 10px;
 }
+
+#empleados-container
+{
+    margin-top: 130px;
+}
+
+

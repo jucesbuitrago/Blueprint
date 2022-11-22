@@ -1,15 +1,16 @@
-import React from "react";
+import React from 'react'
 
- 
 export default class inicio extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {};
-    }
+        this.state = {
 
+        };
+    }
     render() { 
-        return ( 
-            <h1 style={{marginTop:300}}> Página de Inicio </h1>
-         );
+        return (
+            <h1 style={{marginTop:300}}>Página de Inicio</h1>
+            
+        );
     }
 }
