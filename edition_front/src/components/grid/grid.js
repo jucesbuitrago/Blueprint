@@ -1,13 +1,15 @@
-import React from 'react';
-import BootstrapTable from 'react-bootstrap-table-next';
+import React from "react";
+import { Row, Col, Button } from "react-bootstrap";
+import { request } from "../helper/helper";
+import BootstrapTable from "react-bootstrap-table-next";
 import paginationFactory, {
   PaginationProvider,
   PaginationListStandalone,
   SizePerPageDropdownStandalone,
-} from 'react-bootstrap-table2-paginator';
-import ToolkitProvider, { Search } from 'react-bootstrap-table2-toolkit';
-import { Row, Col, Button } from 'react-bootstrap';
-import { request } from '../helper/helper';
+} from "react-bootstrap-table2-paginator";
+import ToolkitProvider, {
+  Search,
+} from "react-bootstrap-table2-toolkit/dist/react-bootstrap-table2-toolkit";
 import Loading from '../loading/loading';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEdit, faTrash } from '@fortawesome/free-solid-svg-icons';

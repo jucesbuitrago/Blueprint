@@ -67,7 +67,7 @@ export default class EmpleadosEditar extends React.Component {
   guardarEmpleados() {
     this.setState({ loading: true });
     request
-      .put(`/empleados/${this.state.idEmpleados}`, this.state.empleados)
+      .put(`/empleados/${this.state.idEmpleado}`, this.state.empleado)
       .then((response) => {
         if (response.data.exito) {
           this.setState({

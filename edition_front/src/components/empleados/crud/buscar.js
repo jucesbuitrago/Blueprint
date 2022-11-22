@@ -38,8 +38,7 @@ const columns = [
     }
 ];
 
-
-export default class EmmpleadosBuscar extends React.Component {
+export default class EmpleadosBuscar extends React.Component {
   constructor(props) {
     super(props);
     this.state = {

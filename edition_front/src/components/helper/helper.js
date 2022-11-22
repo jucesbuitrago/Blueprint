@@ -33,7 +33,7 @@ export const request ={
     let token = renovarSesion();
     return axios.get(`${APIHOST}${services}`,{
         headers:{
-            Authorization: `bearer ${token}`,
+            Authorization: `Bearer ${token}`,
         }
     });
     },

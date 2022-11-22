@@ -3,9 +3,8 @@ import {Route, Redirect} from 'react-router';
 import {getSession} from '../helper/helper';
 
 const checkAuth = () => {
-
     return !getSession() ? false : true;
-}
+};
 
 export default class PrivateRoute extends React.Component {
     constructor(props) {
@@ -38,4 +37,3 @@ export default class PrivateRoute extends React.Component {
         );
     }
 }
-;
