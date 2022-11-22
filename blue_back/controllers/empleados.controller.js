@@ -1,4 +1,4 @@
-const Empleado= require("../models/empleados.model");
+const Empleado = require("../models/empleados.model");
 let response ={
     msg: "",
     exito: false

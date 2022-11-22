@@ -1,17 +1,17 @@
-#login-container{
-    margin-top: 30%;
+#login-container {
+  margin-top: 10%;
 }
 
 #login-container h2,
 #login-container button,
-#login-container form{
-    width: 100%;
+#login-container form {
+  width: 100%;
 }
 
-#login-container button{
-    margin-top: 15px;
+#login-container button {
+  margin-top: 15px;
 }
 
-#login-container .form-label{
-    float: left;
+#login-container .form-label {
+  float: left;
 }

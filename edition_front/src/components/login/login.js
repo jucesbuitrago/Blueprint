@@ -2,14 +2,11 @@ import axios from "axios";
 import React from "react";
 import { Container, Form, Button, Row, Col} from "react-bootstrap";
 import app from "../../app.json";
-import './login.css';
+import './login.css'
 import { isNull } from "util";
 import Cookies from "universal-cookie";
 import { calcularExpirarSesion } from "../helper/helper";
 import Loading from '../loading/loading'
-
-
-
 
 const {APIHOST} = app;
 const cookies = new Cookies()
@@ -87,7 +84,8 @@ export default class Login extends React.Component {
           <Button variant="primary"
             onClick={() => {
               this.iniciarSesion();
-            }}>
+
+            } }>
             Iniciar Sesion{" "}
           </Button>
         </Form>
